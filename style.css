@@ -3,13 +3,25 @@
     box-sizing: border-box;
     font-family: 'Cinzel', serif;
   }
-  
+
   header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   }
   
+  button {
+background-color:red;
+  }
+
+  button:hover {
+    background-color: blue;
+  }
+
+  button:active {
+    background-color: white;
+  }
+
   .senators {
     display: flex;
     flex-wrap: wrap;
