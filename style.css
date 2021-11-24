@@ -1,39 +1,71 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Cinzel', serif;
-  }
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cinzel", serif;
+  color: #F4FFB6;
+  font-size: x-large;
+}
 
-  header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  }
-  
-  button {
-background-color:red;
-  }
+}
 
-  button:hover {
-    background-color: blue;
-  }
+h1 {
+  width: 100%;
+  background-color: #7D1C12;
+}
+h2 {
+  background-color: #7D1C12;
+}
 
-  button:active {
-    background-color: white;
-  }
+.seniority{
+  background-color: #7D1C12;
+}
+.mostLoyal {
+  background-color: #7D1C12;
+}
 
-  .senators {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  figure {
-    width: 160px;
-    display: flex;
-    flex-direction: column;
-    margin: 1em;
-  }
-  
-  figcaption {
-    text-align: center;
-  }
+button {
+  display: flex;
+  background-color: #2ABDAC;
+}
+
+button:hover {
+  background-color: #C27527;
+}
+
+button:active {
+  background-color: #7D1C12;
+}
+
+body {
+  background-image: url("/Images/roThWj.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.senators {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+figure {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+figcaption {
+  text-align: center;
+  background-color: black;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
