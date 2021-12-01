@@ -6,10 +6,18 @@
   font-size: x-large;
 }
 
+nav{
+display: flex;
+background-color: #7D1C12;
+justify-content: center;
+font-size: 3rem;
+}
+
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  margin-right: 4rem;
 }
 
 h1 {
@@ -20,16 +28,14 @@ h2 {
   background-color: #7D1C12;
 }
 
-.seniority{
-  background-color: #7D1C12;
-}
-.mostLoyal {
-  background-color: #7D1C12;
-}
-
 button {
   display: flex;
+  justify-content: center;
   background-color: #2ABDAC;
+  padding: 1.04rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 button:hover {
@@ -37,7 +43,7 @@ button:hover {
 }
 
 button:active {
-  background-color: #7D1C12;
+  background-color: #c063c0;
 }
 
 body {
@@ -54,7 +60,7 @@ body {
 }
 
 figure {
-  width: 160px;
+  width: 140px;
   display: flex;
   flex-direction: column;
   margin: 1em;
@@ -68,5 +74,5 @@ figcaption {
 footer{
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: #7D1C12;;
 }

@@ -50,7 +50,6 @@ const mostSeniorMember = SimplifiedMembers().reduce((acc, senator) =>
   acc.seniority > senator.seniority ? acc : senator,
 )
 
-seniorityHeading.textContent = `The most senior member of Congress is ${mostSeniorMember.name} who has been in congress for ${mostSeniorMember.seniority} years.`
 
 const mostLoyal = SimplifiedMembers().reduce((acc, senator) => {
   if (senator.loyaltyPct === 100) {
@@ -61,11 +60,6 @@ const mostLoyal = SimplifiedMembers().reduce((acc, senator) => {
 
 const cowardList = document.createElement('ol')
 
-const spineless = mostLoyal.map((coward) => {
-  let listItem = document.createElement('li')
-  listItem.textContent = coward.name
-  cowardList.appendChild(listItem)
-})
 
 loyaltyHeading.appendChild(cowardList)
 
