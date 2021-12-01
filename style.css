@@ -20,7 +20,7 @@ header {
   justify-content: center;
   align-items: center;
   margin-right: 3rem;
-  min-width: 1200px;
+  min-width: 1300px;
 }
 
 button {
@@ -52,7 +52,8 @@ body {
 .senators {
   display: flex;
   flex-wrap: wrap;
-  min-width: 1800px;
+  min-width: 1200px;
+  justify-content: center;
 }
 
 figure {
