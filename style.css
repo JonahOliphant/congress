@@ -19,6 +19,7 @@ header {
   justify-content: center;
   align-items: center;
   margin-right: 4rem;
+  min-width: max-content;
 }
 
 h1 {
