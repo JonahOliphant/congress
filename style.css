@@ -2,32 +2,31 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Cinzel", serif;
-  color: #F4FFB6;
+  color: #f4ffb6;
   font-size: x-large;
 }
 
 h1 {
   display: flex;
-background-color: #7D1C12;
-justify-content: center;
-font-size: 3rem;
-min-width: 950px;
-  width: 100%;
-  background-color: #7D1C12;
+  background-color: #7d1c12;
+  justify-content: center;
+  font-size: 3rem;
+  min-width: 1300px;
+  background-color: #7d1c12;
 }
 
 header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 4rem;
-  min-width: 950px;
+  margin-right: 3rem;
+  min-width: 1200px;
 }
 
 button {
   display: flex;
   justify-content: center;
-  background-color: #2ABDAC;
+  background-color: #2abdac;
   padding: 1.04rem;
   margin-left: 2rem;
   margin-top: 2rem;
@@ -35,7 +34,7 @@ button {
 }
 
 button:hover {
-  background-color: #C27527;
+  background-color: #c27527;
 }
 
 button:active {
@@ -53,6 +52,7 @@ body {
 .senators {
   display: flex;
   flex-wrap: wrap;
+  min-width: 1800px;
 }
 
 figure {
@@ -67,8 +67,8 @@ figcaption {
   background-color: black;
 }
 
-footer{
+footer {
   display: flex;
   justify-content: center;
-  background-color: #7D1C12;;
+  background-color: #7d1c12;
 }
