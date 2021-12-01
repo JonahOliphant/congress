@@ -18,8 +18,7 @@ h1 {
 header {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-right: 3rem;
+  margin-right: 5rem;
   min-width: 1300px;
 }
 
