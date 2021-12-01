@@ -52,7 +52,7 @@ body {
 .senators {
   display: flex;
   flex-wrap: wrap;
-  min-width: 1200px;
+  min-width: 1300px;
   justify-content: center;
 }
 
