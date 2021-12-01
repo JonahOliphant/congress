@@ -6,12 +6,14 @@
   font-size: x-large;
 }
 
-nav{
-display: flex;
+h1 {
+  display: flex;
 background-color: #7D1C12;
 justify-content: center;
 font-size: 3rem;
-min-width: 850px;
+min-width: 950px;
+  width: 100%;
+  background-color: #7D1C12;
 }
 
 header {
@@ -19,15 +21,7 @@ header {
   justify-content: center;
   align-items: center;
   margin-right: 4rem;
-  min-width: 850px;
-}
-
-h1 {
-  width: 100%;
-  background-color: #7D1C12;
-}
-h2 {
-  background-color: #7D1C12;
+  min-width: 950px;
 }
 
 button {
