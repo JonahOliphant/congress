@@ -4,8 +4,6 @@ import { representatives } from '../data/representatives.js'
 const members = [...senators, ...representatives] // modern way to combine arrays like a genioeuus!
 
 const senatorDiv = document.querySelector('.senators')
-const loyaltyHeading = document.querySelector('.mostLoyal')
-const seniorityHeading = document.querySelector('.seniority')
 
 function SimplifiedMembers(chamberFilter) {
   const filteredArray = members.filter((member) =>
