@@ -19,6 +19,7 @@ header {
   display: flex;
   justify-content: center;
   min-width: 1400px;
+  background-color: #7d1c12;
 }
 
 button {
