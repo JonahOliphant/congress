@@ -57,7 +57,7 @@ body {
 }
 
 figure {
-  width: 140px;
+  width: 180px;
   display: flex;
   flex-direction: column;
   margin: 1em;
