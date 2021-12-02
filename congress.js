@@ -42,25 +42,4 @@ function populateSenatorDiv(simpleSenators) {
   })
 }
 
-//const filterSenators = (prop, value) => SimplifiedSenators().filter(senator => senator[prop] === value)
-
-//console.log(filterSenators('gender', 'F'))
-
-const mostSeniorMember = SimplifiedMembers().reduce((acc, senator) =>
-  acc.seniority > senator.seniority ? acc : senator,
-)
-
-
-const mostLoyal = SimplifiedMembers().reduce((acc, senator) => {
-  if (senator.loyaltyPct === 100) {
-    acc.push(senator)
-  }
-  return acc
-}, [])
-
-const cowardList = document.createElement('ol')
-
-
-loyaltyHeading.appendChild(cowardList)
-
 populateSenatorDiv(SimplifiedMembers())
