@@ -25,6 +25,7 @@ h1 {
     linear-gradient(216deg, #fff 7.5%, transparent 7.5%) -0.2in 0.73in,
     linear-gradient(144deg, #fff 7.5%, transparent 7.5%) 0.8in 0.73in, #002868;
   background-size: 1in 1in;
+ 
 }
 
 h3 {
@@ -46,6 +47,7 @@ header {
     #e3e4e6 100%
   );
   background-size: 80px 41.5px;
+  box-shadow: 0 7px 7px -2px rgba(0,0,0,.5);
 }
 
 button {
