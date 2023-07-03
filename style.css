@@ -8,34 +8,58 @@
 
 h1 {
   display: flex;
-  background-color: #7d1c12;
   justify-content: center;
   font-size: 3rem;
   min-width: 1400px;
-  background-color: #7d1c12;
+  background: linear-gradient(324deg, #3c3b6e 4%, transparent 4%) -0.7in 0.43in,
+    linear-gradient(36deg, #3c3b6e 4%, transparent 4%) 0.3in 0.43in,
+    linear-gradient(72deg, #fff 8.5%, transparent 8.5%) 0.3in 0.43in,
+    linear-gradient(288deg, #fff 8.5%, transparent 8.5%) -0.7in 0.43in,
+    linear-gradient(216deg, #fff 7.5%, transparent 7.5%) -0.7in 0.23in,
+    linear-gradient(144deg, #fff 7.5%, transparent 7.5%) 0.3in 0.23in,
+    linear-gradient(324deg, #3c3b6e 4%, transparent 4%) -0.2in 0.93in,
+    linear-gradient(36deg, #3c3b6e 4%, transparent 4%) 0.8in 0.93in,
+    linear-gradient(72deg, #fff 8.5%, transparent 8.5%) 0.8in 0.93in,
+    linear-gradient(288deg, #fff 8.5%, transparent 8.5%) -0.2in 0.93in,
+    linear-gradient(216deg, #fff 7.5%, transparent 7.5%) -0.2in 0.73in,
+    linear-gradient(144deg, #fff 7.5%, transparent 7.5%) 0.8in 0.73in, #3c3b6e;
+  background-size: 1in 1in;
 }
 
 header {
   display: flex;
   justify-content: center;
   min-width: 1400px;
-  background-color: #7d1c12;
+  background-image: linear-gradient(
+    180deg,
+    #BF0A30 25%,
+    #e3e4e6 25%,
+    #e3e4e6 50%,
+    #BF0A30 50%,
+    #BF0A30 75%,
+    #e3e4e6 75%,
+    #e3e4e6 100%
+  );
+  background-size: 80px 41.5px;
 }
 
 button {
   display: flex;
   justify-content: center;
-  background-color: #2abdac;
+  background-color: #002868;
   padding: 1rem;
   margin: 1rem;
   font-size: 1.1rem;
   border-radius: 20px;
   transition-duration: 0.4s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 button:hover {
   background-color: #c27527;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 button:active {
