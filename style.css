@@ -36,6 +36,7 @@ header {
   display: flex;
   justify-content: center;
   min-width: 1400px;
+  margin-bottom: 5px;
   background-image: linear-gradient(
     180deg,
     #BF0A30 25%,
@@ -105,7 +106,7 @@ figure {
   flex-direction: column;
   margin: 10px;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.164) 0px 2px 1px, rgba(0, 0, 0, 0.032) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 4px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.532) 0px 2px 6px;
+  box-shadow: rgba(0, 0, 0, 0.164) 0px 2px 1px, rgba(0, 0, 0, 0.032) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 4px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.187) 0px 6px 3px;
 }
 
 figcaption {
