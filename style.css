@@ -219,7 +219,7 @@ figure:hover {
   transform-style: preserve-3d;
   justify-content: center;
   transition-duration: 0.1s;
-  box-shadow:0 0px 1px 5px #ffe373;
+  box-shadow: 0px 3px 2px 1px rgb(0, 0, 0), 0 0px 5px 8px #ffe373;
   transform: translate3d(0, -0.3em, -1em) scale(1.03);
 }
 
@@ -264,9 +264,11 @@ shorttitle {
 
 figcaption {
   display: flex;
+  height: 40px;
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
+  align-items: center;
   background-color: rgb(26, 26, 26);
   border-radius: 0px 0px 0px 0px;
   font-size: 15px;
