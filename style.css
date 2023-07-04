@@ -12,7 +12,21 @@
 } 
 
 #header1 {
+  position: fixed;
+  top: 2;
   background-color: #002868;
+  width: 100%;
+  z-index: 2;
+ box-shadow: 0 7px 7px -2px rgba(0, 0, 0, 0.5);
+}
+
+#header3 {
+  position: absolute;
+  bottom: -160px;
+  background-color: #002868;
+  width: 100%;
+  z-index: 0;
+ box-shadow: 0 -7px 7px -2px rgba(0, 0, 0, 0.5);
 }
 
 .USA-stars {
@@ -32,17 +46,18 @@
 .star-row {
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .star {
-  font-size: 40px;
+  font-size: 26px;
+  padding-left: 10px;
+  padding-right: 10px;
   align-items: center;
   color: white;
   display: flex;
-  justify-content: center;
   margin-top: 0px;
-  overflow: hidden;
-  text-shadow: 1px 6px 4px rgba(20, 20, 20, 0.397);
+  text-shadow: 0px 5px 0px rgba(20, 20, 20, 0.397);
 }
 
 @media (max-width: 1000px) {
@@ -71,20 +86,40 @@ h1 {
   display: flex;
   white-space: nowrap;
   justify-content: center;
+  align-items: center;
   overflow: visible;
-  font-size: 50px;
+  font-size: 30px;
   text-shadow: 1px 2.5px 2px #1c190d;
 }
 
 h3 {
   color: #ffe373;
+  white-space: nowrap;
+  display: flex;
+  overflow: visible;
+  align-items: center;
+  justify-content: center;
+}
+
+#stripes{
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  width: 100%;
+  justify-content: center;
+  min-width: 880px;
 }
 
 #header2 {
+  position: sticky;
+  top: 0;
+  width: fit-content;
+border-radius: 0px 0px 10px 10px;
+justify-content: center;
+white-space: nowrap;
+  z-index: 1;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 5px;
   background-image: linear-gradient(
     180deg,
     #bf0a30 25%,
@@ -97,8 +132,8 @@ h3 {
   );
   background-size: 80px 41.5px;
   box-shadow: 0 7px 7px -2px rgba(0, 0, 0, 0.5);
-  padding-top: 2px;
-  padding-bottom: 4px;
+  padding-top: 45px;
+  padding-bottom: 1px;
 }
 
 button {
@@ -110,10 +145,10 @@ button {
   background-color: #002868;
   border-color: #ffe373;
   padding: 20px;
-  margin: 10px 10px 10px 10px;
-  font-size: 1rem;
-  font-weight: bold;
+  margin: 5px 10px 10px 10px;
+  font-size: 18px;
   border-width: 3px;
+  font-weight: bold;
   transition-duration: 0.2s;
   box-shadow: rgba(0, 0, 0, 0.393) 0px 2px 1px, rgba(0, 0, 0, 0.705) 0px 4px 2px,
     rgba(0, 0, 0, 0.09) 0px 4px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
@@ -147,6 +182,9 @@ body {
 }
 
 .senators {
+  position: relative;
+  z-index: 0;
+  top: 145px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -206,8 +244,12 @@ figcaption {
 }
 
 footer {
+  position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 50px;
+  bottom: 0;
+  z-index: 1;
+  min-height: 30px;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  width: 100%;
 }
