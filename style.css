@@ -205,6 +205,13 @@ figure {
   transition-duration: 0.1s;
 }
 
+/* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+  figure {
+    width: 170px;
+  }
+}
+
 figure:hover {
   transition: transform 0.10s;
   transform-style: preserve-3d;
@@ -242,6 +249,13 @@ figcaption {
   border-radius: 0px 0px 5px 5px;
   font-size: 15px;
 }
+
+@media (max-width: 75em) {
+  figcaption {
+    font-size: 18px;
+  }
+}
+
 
 footer {
   position: relative;
