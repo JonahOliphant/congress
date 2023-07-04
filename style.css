@@ -193,9 +193,10 @@ body {
 }
 
 figure {
-  background-color: #000000;
+  background-color: #ffffff;
   width: 120px;
   height: min-content;
+
   display: flex;
   flex-direction: column;
   margin: 10px;
@@ -239,7 +240,9 @@ figure:active::before {
 }
 
 img {
-  border-radius: 5px 5px 0px 0px;
+  transform: scale(94%) translateY(-3px);
+  border-radius: 5px 5px 5px 5px;
+  box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.833);
 }
 
 shorttitle {
@@ -250,7 +253,7 @@ shorttitle {
   text-align: center;
   justify-content: center;
   background-color: rgb(255, 255, 255);
-  border-radius: 0px 0px 5px 5px;
+  border-radius: 0px 0px 0px 0px;
   font-size: 15px;
 }
 
@@ -259,9 +262,10 @@ figcaption {
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
-  background-color: black;
-  border-radius: 0px 0px 5px 5px;
+  background-color: rgb(26, 26, 26);
+  border-radius: 0px 0px 0px 0px;
   font-size: 15px;
+  font-weight: 500;
 }
 
 @media (max-width: 75em) {
