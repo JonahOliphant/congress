@@ -175,7 +175,6 @@ button:active::before {
 
 body {
   background-image: url("/Images/roThWj.jpg");
-  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: fixed;
   background-size: cover;
