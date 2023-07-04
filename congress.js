@@ -11,16 +11,15 @@ function SimplifiedMembers(chamberFilter) {
   )
 
   return filteredArray.map((senator) => {
-    let middleName = senator.middle_name ? ` ${senator.middle_name} ` : ` `
+    let middleName = senator.middle_name ? ` ${senator.middle_name} ` : ` ` 
     return {
       id: senator.id,
       name: `${senator.first_name}${middleName}${senator.last_name}`,
       party: senator.party,
       gender: senator.gender,
+      short_title: senator.short_title,
       seniority: +senator.seniority,
       imgURL: `https://www.govtrack.us/static/legislator-photos/${senator.govtrack_id}-100px.jpeg`,
-      missedVotesPct: senator.missed_votes_pct,
-      loyaltyPct: senator.votes_with_party_pct,
     }
   })
 }
@@ -32,7 +31,7 @@ function populateSenatorDiv(simpleSenators) {
     const figCaption = document.createElement('figcaption')
 
     figImg.src = senator.imgURL
-    figCaption.textContent = senator.name
+    figCaption.textContent = `${senator.short_title}${senator.name}${senator.party}` 
 
     senFigure.appendChild(figImg)
     senFigure.appendChild(figCaption)
