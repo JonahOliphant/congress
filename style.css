@@ -3,7 +3,7 @@
   box-sizing: border-box;
   font-family: "Cinzel", serif;
   color: #ffe373;
-  text-shadow: 1px 2px 4px #000000;
+  text-shadow: 0px 1px 1px #000000;
   font-size: large;
 }
 
@@ -200,7 +200,7 @@ figure {
   flex-direction: column;
   margin: 10px;
   border-radius: 5px;
-  box-shadow:0px 2px 4.5px 3px rgba(0, 0, 0, 0.767);
+  box-shadow:0px 2px 4px 3px rgba(0, 0, 0, 0.833);
   transition: transform 0.15s;
   transform-style: preserve-3d;
   justify-content: center;
@@ -242,6 +242,18 @@ img {
   border-radius: 5px 5px 0px 0px;
 }
 
+shorttitle {
+  color: #000000;
+  font-weight: bolder;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px 0px 5px 5px;
+  font-size: 15px;
+}
+
 figcaption {
   display: flex;
   flex-wrap: wrap;
@@ -258,6 +270,17 @@ figcaption {
   }
 }
 
+senparty {
+  color: #000000;
+  font-weight: bolder;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px 0px 5px 5px;
+  font-size: 15px;
+}
 
 footer {
   position: relative;

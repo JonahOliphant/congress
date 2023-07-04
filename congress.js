@@ -29,12 +29,18 @@ function populateSenatorDiv(simpleSenators) {
     const senFigure = document.createElement('figure')
     const figImg = document.createElement('img')
     const figCaption = document.createElement('figcaption')
+    const shortTitle = document.createElement('shorttitle')
+    const senParty = document.createElement('senparty')
 
     figImg.src = senator.imgURL
-    figCaption.textContent = `${senator.short_title}${senator.name}${senator.party}` 
+    figCaption.textContent = `${senator.name}` 
+    shortTitle.textContent = `${senator.short_title}`
+    senParty.textContent = `${senator.party}`
 
     senFigure.appendChild(figImg)
+    senFigure.appendChild(shortTitle)
     senFigure.appendChild(figCaption)
+    senFigure.appendChild(senParty)
     senatorDiv.appendChild(senFigure)
   })
 }
