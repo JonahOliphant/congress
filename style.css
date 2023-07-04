@@ -168,21 +168,19 @@ figure {
 }
 
 figure:hover {
-  transition: transform 0.15s;
+  transition: transform 0.10s;
   transform-style: preserve-3d;
   justify-content: center;
   transition-duration: 0.1s;
-  box-shadow:0 0px 2px 6px #ffffff;
+  box-shadow:0 0px 1px 5px #ffe373;
+  transform: translate3d(0, -0.3em, -1em) scale(1.03);
 }
 
 figure::before {
   transform: translate3d(0, 0.65em, -1em);
-  transition: transform 0.15s, box-shadow 0.15s;
+  transition: transform 0.10s, box-shadow 0.15s;
 }
 
-figure:hover {
-  transform: translate3d(0, -0.3em, -1em) scale(1.03);
-}
 figure:hover::before {
   transform: translate3d(0, -0.2em, -1em);
 }
@@ -198,7 +196,10 @@ img {
 }
 
 figcaption {
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
+  justify-content: center;
   background-color: black;
   border-radius: 0px 0px 5px 5px;
   font-size: 15px;
