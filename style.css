@@ -21,8 +21,8 @@
 }
 
 #header3 {
-  position: absolute;
-  bottom: -160px;
+  position: relative;
+  margin-top: 200px;
   background-color: #002868;
   width: 100%;
   z-index: 4;
@@ -261,7 +261,6 @@ figcaption {
 footer {
   position: relative;
   display: flex;
-  bottom: -50px;
   z-index: 0;
   min-height: 30px;
   justify-content: space-evenly;
