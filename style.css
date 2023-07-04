@@ -211,7 +211,7 @@ figure {
 /* 1200px / 16px = 75em */
 @media (max-width: 75em) {
   figure {
-    width: 170px;
+    width: 180px;
   }
 }
 
@@ -254,7 +254,13 @@ shorttitle {
   justify-content: center;
   background-color: rgb(255, 255, 255);
   border-radius: 0px 0px 0px 0px;
-  font-size: 15px;
+  font-size: 16px;
+}
+
+@media (max-width: 75em) {
+  shorttitle {
+    font-size: 22px;
+  }
 }
 
 figcaption {
@@ -270,7 +276,7 @@ figcaption {
 
 @media (max-width: 75em) {
   figcaption {
-    font-size: 18px;
+    font-size: 22px;
   }
 }
 
@@ -283,7 +289,13 @@ senparty {
   justify-content: center;
   background-color: rgb(255, 255, 255);
   border-radius: 0px 0px 5px 5px;
-  font-size: 15px;
+  font-size: 18px;
+}
+
+@media (max-width: 75em) {
+  senparty {
+    font-size: 22px;
+  }
 }
 
 footer {
