@@ -278,6 +278,7 @@ figcaption {
 @media (max-width: 75em) {
   figcaption {
     font-size: 22px;
+    height: 60px;
   }
 }
 
