@@ -2,53 +2,103 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Cinzel", serif;
-  color: #FFE373;
-text-shadow: 1px 2px 4px #000000;
+  color: #ffe373;
+  text-shadow: 1px 2px 4px #000000;
   font-size: large;
+}
+
+  html {
+   min-width: 940px;
+} 
+
+#header1 {
+  background-color: #002868;
+}
+
+.USA-stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: calc((40px / 13) * 7);
+  background-color: #041E42;
+  z-index: 1;
+  padding: 12px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.star-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.star {
+  font-size: 40px;
+  align-items: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  overflow: hidden;
+  text-shadow: 1px 6px 4px rgba(20, 20, 20, 0.397);
+}
+
+@media (max-width: 1000px) {
+  .USA-flag {
+    transform: scale(.75);
+  }
+}
+@media (max-width: 725px) {
+  .USA-flag {
+    transform: scale(.5);
+  }
+}
+@media (max-width: 475px) {
+  .USA-flag {
+    transform: scale(.375);
+  }
+}
+
+@media (max-width: 340px) {
+  .USA-flag {
+    transform: scale(.325);
+  }
 }
 
 h1 {
   display: flex;
+  white-space: nowrap;
   justify-content: center;
-  font-size: 60px;
-  min-width: 1400px;
-  background: linear-gradient(324deg, #002868 4%, transparent 4%) -0.7in 0.43in,
-    linear-gradient(36deg, #002868 4%, transparent 4%) 0.3in 0.43in,
-    linear-gradient(72deg, #fff 8.5%, transparent 8.5%) 0.3in 0.43in,
-    linear-gradient(288deg, #fff 8.5%, transparent 8.5%) -0.7in 0.43in,
-    linear-gradient(216deg, #fff 7.5%, transparent 7.5%) -0.7in 0.23in,
-    linear-gradient(144deg, #fff 7.5%, transparent 7.5%) 0.3in 0.23in,
-    linear-gradient(324deg, #002868 4%, transparent 4%) -0.2in 0.93in,
-    linear-gradient(36deg, #002868 4%, transparent 4%) 0.8in 0.93in,
-    linear-gradient(72deg, #fff 8.5%, transparent 8.5%) 0.8in 0.93in,
-    linear-gradient(288deg, #fff 8.5%, transparent 8.5%) -0.2in 0.93in,
-    linear-gradient(216deg, #fff 7.5%, transparent 7.5%) -0.2in 0.73in,
-    linear-gradient(144deg, #fff 7.5%, transparent 7.5%) 0.8in 0.73in, #002868;
-  background-size: 1in 1in;
- 
+  overflow: visible;
+  font-size: 50px;
+  text-shadow: 1px 2.5px 2px #1c190d;
 }
 
 h3 {
-  color: #FFE373;
+  color: #ffe373;
 }
 
-header {
+#header2 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  min-width: 1400px;
   margin-bottom: 5px;
   background-image: linear-gradient(
     180deg,
-    #BF0A30 25%,
+    #bf0a30 25%,
     #e3e4e6 25%,
     #e3e4e6 50%,
-    #BF0A30 50%,
-    #BF0A30 75%,
+    #bf0a30 50%,
+    #bf0a30 75%,
     #e3e4e6 75%,
     #e3e4e6 100%
   );
   background-size: 80px 41.5px;
-  box-shadow: 0 7px 7px -2px rgba(0,0,0,.5);
+  box-shadow: 0 7px 7px -2px rgba(0, 0, 0, 0.5);
+  padding-top: 2px;
+  padding-bottom: 4px;
 }
 
 button {
@@ -58,13 +108,16 @@ button {
   transform-style: preserve-3d;
   justify-content: center;
   background-color: #002868;
-  border-color: #FFE373;
-  padding: 1rem;
-  margin: 1rem;
-  font-size: 1.1rem;
-  border-width: 1.5px;
-  transition-duration: 0.4s;
-  box-shadow: rgba(0, 0, 0, 0.393) 0px 2px 1px, rgba(0, 0, 0, 0.705) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 4px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-color: #ffe373;
+  padding: 20px;
+  margin: 10px 10px 10px 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-width: 3px;
+  transition-duration: 0.2s;
+  box-shadow: rgba(0, 0, 0, 0.393) 0px 2px 1px, rgba(0, 0, 0, 0.705) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 4px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 button::before {
@@ -73,13 +126,13 @@ button::before {
 }
 
 button:hover {
-  transform: translate(0, 0.15em);
+  transform: translate(0, -0.15em);
 }
 button:hover::before {
-  transform: translate3d(0, 0.5em, -1em);
+  transform: translate3d(0, -0.5em, -1em);
 }
 button:active {
-  transform: translate(0em, 0.65em);
+  transform: translate(0em, 0.25em);
 }
 button:active::before {
   transform: translate3d(0, 0, -0.5em);
@@ -96,43 +149,64 @@ body {
 .senators {
   display: flex;
   flex-wrap: wrap;
-  min-width: 1400px;
   justify-content: center;
 }
 
 figure {
-  width: 150px;
+  background-color: #000000;
+  width: 120px;
+  height: min-content;
   display: flex;
   flex-direction: column;
   margin: 10px;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.164) 0px 2px 1px, rgba(0, 0, 0, 0.032) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 4px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.187) 0px 6px 3px;
+  border-radius: 5px;
+  box-shadow:0 1px 4px 2px rgba(0, 0, 0, 0.741);
+  transition: transform 0.15s;
+  transform-style: preserve-3d;
+  justify-content: center;
+  transition-duration: 0.1s;
+}
+
+figure:hover {
+  transition: transform 0.15s;
+  transform-style: preserve-3d;
+  justify-content: center;
+  transition-duration: 0.1s;
+  box-shadow:0 0px 2px 6px #ffffff;
+}
+
+figure::before {
+  transform: translate3d(0, 0.65em, -1em);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+figure:hover {
+  transform: translate3d(0, -0.3em, -1em) scale(1.03);
+}
+figure:hover::before {
+  transform: translate3d(0, -0.2em, -1em);
+}
+figure:active {
+  transform: translate(0em, 0.25em) scale(0.95);
+}
+figure:active::before {
+  transform: translate3d(0, 0, -0.2em);
+}
+
+img {
+  border-radius: 5px 5px 0px 0px;
 }
 
 figcaption {
   text-align: center;
   background-color: black;
   border-radius: 0px 0px 5px 5px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(324deg, #002868 4%, transparent 4%) -0.7in 0.43in,
-  linear-gradient(36deg, #002868 4%, transparent 4%) 0.3in 0.43in,
-  linear-gradient(72deg, #fff 8.5%, transparent 8.5%) 0.3in 0.43in,
-  linear-gradient(288deg, #fff 8.5%, transparent 8.5%) -0.7in 0.43in,
-  linear-gradient(216deg, #fff 7.5%, transparent 7.5%) -0.7in 0.23in,
-  linear-gradient(144deg, #fff 7.5%, transparent 7.5%) 0.3in 0.23in,
-  linear-gradient(324deg, #002868 4%, transparent 4%) -0.2in 0.93in,
-  linear-gradient(36deg, #002868 4%, transparent 4%) 0.8in 0.93in,
-  linear-gradient(72deg, #fff 8.5%, transparent 8.5%) 0.8in 0.93in,
-  linear-gradient(288deg, #fff 8.5%, transparent 8.5%) -0.2in 0.93in,
-  linear-gradient(216deg, #fff 7.5%, transparent 7.5%) -0.2in 0.73in,
-  linear-gradient(144deg, #fff 7.5%, transparent 7.5%) 0.8in 0.73in, #002868;
-background-size: 1in 1in;
-  min-width: 1400px;
   min-height: 50px;
 }
