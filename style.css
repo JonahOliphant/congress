@@ -178,7 +178,7 @@ button:active::before {
 body {
   background-image: url("/Images/BN-XQ583_Galsto_M_20180227100221.jpg");
   background-attachment: fixed;
-  background-position: fixed;
+  background-position: center;
   background-size: cover;
 
 }
