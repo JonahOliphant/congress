@@ -8,7 +8,7 @@
 }
 
   html {
-   min-width: 940px;
+   min-width: 970px;
 } 
 
 #header1 {
@@ -50,7 +50,8 @@
 }
 
 .star {
-  font-size: 26px;
+  font-size: 28px;
+  line-height: 100%;
   padding-left: 10px;
   padding-right: 10px;
   align-items: center;
@@ -88,7 +89,7 @@ h1 {
   justify-content: center;
   align-items: center;
   overflow: visible;
-  font-size: 30px;
+  font-size: 38px;
   text-shadow: 1px 2.5px 2px #1c190d;
 }
 
@@ -99,6 +100,7 @@ h3 {
   overflow: visible;
   align-items: center;
   justify-content: center;
+  font-size: 14px;
 }
 
 #stripes{
@@ -107,7 +109,7 @@ h3 {
   z-index: 2;
   width: 100%;
   justify-content: center;
-  min-width: 880px;
+  min-width: 960px;
 }
 
 #header2 {
@@ -132,7 +134,7 @@ white-space: nowrap;
   );
   background-size: 80px 41.5px;
   box-shadow: 0 7px 7px -2px rgba(0, 0, 0, 0.5);
-  padding-top: 45px;
+  padding-top: 50px;
   padding-bottom: 1px;
 }
 
@@ -174,10 +176,11 @@ button:active::before {
 }
 
 body {
-  background-image: url("/Images/roThWj.jpg");
+  background-image: url("/Images/BN-XQ583_Galsto_M_20180227100221.jpg");
   background-attachment: fixed;
   background-position: fixed;
   background-size: cover;
+
 }
 
 .senators {
@@ -301,10 +304,11 @@ senparty {
 }
 
 footer {
-  position: relative;
+  position: fixed;
+  bottom: 0;
   display: flex;
-  z-index: 0;
-  min-height: 30px;
+  z-index: 1;
   justify-content: space-evenly;
+  align-items: center;
   width: 100%;
 }
