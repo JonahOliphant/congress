@@ -9,6 +9,8 @@
 
 html {
   min-width: 970px;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
 }
 
 #header1 {
