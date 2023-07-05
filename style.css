@@ -194,13 +194,13 @@ body {
   justify-content: center;
   margin-bottom: 110px;
   padding-bottom: 200px;
+  height: min-content;
 }
 
 figure {
   background-color: #ffffff;
   width: 120px;
   height: min-content;
-
   display: flex;
   flex-direction: column;
   margin: 10px;
