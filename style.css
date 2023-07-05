@@ -9,6 +9,7 @@
 
 html {
   min-width: 970px;
+  height: 100vh;
 }
 
 #header1 {
@@ -180,7 +181,7 @@ body {
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100%;
   background-size: cover;
   z-index: -1;
 }
