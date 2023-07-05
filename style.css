@@ -176,13 +176,13 @@ button:active::before {
 }
 
 body {
-  background-image: url("/Images/BN-XQ583_Galsto_M_20180227100221.jpg")!important;
-  background-attachment: fixed !important;
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
+  background-image: url("/Images/BN-XQ583_Galsto_M_20180227100221.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
   width: 100%;
   height: 100%;
-  background-size: cover !important;
+  background-size: cover;
   z-index: -10;
 }
 
