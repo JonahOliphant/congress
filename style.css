@@ -7,9 +7,9 @@
   font-size: large;
 }
 
-  html {
-   min-width: 970px;
-} 
+html {
+  min-width: 970px;
+}
 
 #header1 {
   position: fixed;
@@ -17,7 +17,7 @@
   background-color: #002868;
   width: 100%;
   z-index: 4;
- box-shadow: 0 7px 7px -2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 7px 7px -2px rgba(0, 0, 0, 0.5);
 }
 
 #header3 {
@@ -25,7 +25,7 @@
   background-color: #002868;
   width: 100%;
   z-index: 4;
- box-shadow: 0 -7px 7px -2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 -7px 7px -2px rgba(0, 0, 0, 0.5);
 }
 
 .USA-stars {
@@ -33,7 +33,7 @@
   top: 0;
   left: 0;
   height: calc((40px / 13) * 7);
-  background-color: #041E42;
+  background-color: #041e42;
   z-index: 4;
   padding: 12px;
   box-sizing: border-box;
@@ -63,23 +63,23 @@
 
 @media (max-width: 1000px) {
   .USA-flag {
-    transform: scale(.75);
+    transform: scale(0.75);
   }
 }
 @media (max-width: 725px) {
   .USA-flag {
-    transform: scale(.5);
+    transform: scale(0.5);
   }
 }
 @media (max-width: 475px) {
   .USA-flag {
-    transform: scale(.375);
+    transform: scale(0.375);
   }
 }
 
 @media (max-width: 340px) {
   .USA-flag {
-    transform: scale(.325);
+    transform: scale(0.325);
   }
 }
 
@@ -103,7 +103,7 @@ h3 {
   font-size: 14px;
 }
 
-#stripes{
+#stripes {
   position: fixed;
   display: flex;
   z-index: 2;
@@ -116,9 +116,9 @@ h3 {
   position: sticky;
   top: 0;
   width: fit-content;
-border-radius: 0px 0px 10px 10px;
-justify-content: center;
-white-space: nowrap;
+  border-radius: 0px 0px 10px 10px;
+  justify-content: center;
+  white-space: nowrap;
   z-index: 2;
   display: flex;
   flex-wrap: wrap;
@@ -181,7 +181,7 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   height: 100vh;
-background-size: 100vw 100vh;
+  background-size: 100vh;
   z-index: -1;
 }
 
@@ -205,7 +205,7 @@ figure {
   flex-direction: column;
   margin: 10px;
   border-radius: 5px;
-  box-shadow:0px 2px 4px 3px rgba(0, 0, 0, 0.833);
+  box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.833);
   transition: transform 0.15s;
   transform-style: preserve-3d;
   justify-content: center;
@@ -220,7 +220,7 @@ figure {
 }
 
 figure:hover {
-  transition: transform 0.10s;
+  transition: transform 0.1s;
   transform-style: preserve-3d;
   justify-content: center;
   transition-duration: 0.1s;
@@ -230,7 +230,7 @@ figure:hover {
 
 figure::before {
   transform: translate3d(0, 0.65em, -1em);
-  transition: transform 0.10s, box-shadow 0.15s;
+  transition: transform 0.1s, box-shadow 0.15s;
 }
 
 figure:hover::before {
@@ -246,7 +246,7 @@ figure:active::before {
 img {
   transform: scale(94%) translateY(-3px);
   border-radius: 5px 5px 5px 5px;
-  box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.833);
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.833);
 }
 
 shorttitle {
