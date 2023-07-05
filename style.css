@@ -178,9 +178,9 @@ button:active::before {
 body {
   background-image: url("/Images/BN-XQ583_Galsto_M_20180227100221.jpg");
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
-
+  background-repeat: no-repeat;
 }
 
 .senators {
