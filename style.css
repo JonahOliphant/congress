@@ -181,7 +181,6 @@ body {
   background-image: url("/Images/house3.jpg");
   background-attachment: fixed;
   background-position: center 200px;
-  background-size: cover;
   background-repeat: no-repeat;
 background-color: #1c190d;
   z-index: -10;
