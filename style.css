@@ -182,9 +182,10 @@ body {
   background-attachment: fixed;
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: 2100px;
+  background-size: cover;
+  align-items: center;
   z-index: -10;
-  height: 100lvh;
+  min-height: 100lvh;
   width: 100%;
 }
 
