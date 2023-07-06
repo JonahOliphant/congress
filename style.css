@@ -186,6 +186,7 @@ body {
   align-items: center;
   z-index: -10;
   min-height: 100lvh;
+  min-height: -webkit-fill-available;
   width: 100%;
 }
 
