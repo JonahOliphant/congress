@@ -11,10 +11,6 @@ html {
   min-width: 970px;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
-  top: 0px;
-  left: 0;
-  right: 0;
-  bottom: 0;
 }
 
 #header1 {
@@ -188,8 +184,6 @@ body {
   background-repeat: no-repeat;
   background-size: 100% auto;
   z-index: -10;
-  min-height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
 }
 
 .senators {
