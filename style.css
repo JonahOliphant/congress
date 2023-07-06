@@ -182,7 +182,7 @@ body {
   background-attachment: fixed;
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: 2227px 1535px;
+  background-size: cover;
 background-color: #1c190d;
   z-index: -10;
 }
