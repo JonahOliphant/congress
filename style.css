@@ -195,6 +195,7 @@ background-color: #1c190d;
   justify-content: center;
   margin-bottom: 110px;
   padding-bottom: 200px;
+  max-height: 11050px;
 }
 
 figure {
