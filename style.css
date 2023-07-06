@@ -11,6 +11,7 @@ html {
   min-width: 970px;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
+  max-height: 11090px;
 }
 
 #header1 {
@@ -184,6 +185,7 @@ body {
   background-repeat: repeat-y;
 background-color: #1c190d;
   z-index: -10;
+  max-height: 11090px;
 }
 
 .senators {
@@ -195,7 +197,7 @@ background-color: #1c190d;
   justify-content: center;
   margin-bottom: 110px;
   padding-bottom: 200px;
-  max-height: 11050px;
+  max-height: 11090px;
 }
 
 figure {
