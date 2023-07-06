@@ -182,7 +182,8 @@ body {
   background-attachment: fixed;
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
+background-color: #1c190d;
   z-index: -10;
 }
 
