@@ -185,8 +185,7 @@ body {
   background-size: cover;
   align-items: center;
   z-index: -10;
-  min-height: 100lvh;
-  min-height: -webkit-fill-available;
+  min-height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
 }
 
