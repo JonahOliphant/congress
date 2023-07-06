@@ -11,6 +11,8 @@ html {
   min-width: 970px;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
+  min-height: 100vh;  
+  min-height: -webkit-fill-available;
 }
 
 #header1 {
