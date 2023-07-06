@@ -180,8 +180,8 @@ button:active::before {
 body {
   background-image: url("/Images/house3.jpg");
   background-attachment: fixed;
-  background-position: center 200px;
-  background-repeat: no-repeat;
+  background-position: center -150px;
+  background-repeat: repeat-y;
 background-color: #1c190d;
   z-index: -10;
 }
