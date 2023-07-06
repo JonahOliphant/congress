@@ -183,8 +183,8 @@ body {
   background-position: center top;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100svh;
-  background-size: cover;
+  height: 100svmax;
+  background-size: 100svmax;
   z-index: -10;
 }
 
